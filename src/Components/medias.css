@@ -1,0 +1,826 @@
+
+@import 'layout.css';
+
+@media only screen and (max-width: 1089px) {
+  .navbar .container {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .how-even-makes-money-section {
+    flex-direction: column !important;
+  }
+
+.navbar-item a {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+  .how-even-makes-money-section h3 {
+    font-size: 25pt !important;
+  } 
+
+  .how_even_makes_money_columns {
+    width: 100% !important;
+  }
+  
+  .how-even-makes-money-section .column {
+    justify-content: center !important;
+    align-items: center;
+    color: grey;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .picture-dashboard {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+}
+@media only screen and (max-width: 769px) {
+
+  .title,
+  .subtitle {
+    text-align: left;
+  }
+
+  .navbar-item {
+    margin-left: 1rem !important;
+  }
+
+  .burger {
+    margin-right: 1rem !important;
+  }
+
+  .download-buttons {
+    width: 10rem;
+    height: 8rem;
+  }
+
+
+  .start-section {
+    padding-top: 8rem;
+  }
+
+  .columns-company {
+    width: 100%;
+    height: 50rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body-template { 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section {
+    margin: 0;
+    padding-top: 0;
+    min-width: 375px;
+    margin-bottom: 4rem;
+  }
+
+  .footer {
+      height: 70rem;
+      min-width: 375px ;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .final-container-about-us .columns {
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+
+
+  .body {
+    max-width: 375px;
+  }
+  .footer .column {
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+  .footer .column p {
+    font-size: 11pt;
+    text-align: left;
+  }
+
+  .carousel-section {
+    height: 100rem;
+  }
+
+  .card-list-container {
+    padding-top: 5rem;
+    height: 85rem;
+  }
+
+  .card-list-container .columns {
+    padding-top: 2rem;
+    width: 100%;
+    height:65rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons-container .columns {
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0 ;
+  }
+
+
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+  }
+  
+
+  .text-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .description {
+    width: 100%;
+    margin-bottom: 2rem ;
+    margin: 0;
+    padding-right: 0;
+  }
+
+  .article-section {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    border: none;
+    border-left: 2px solid rgb(193, 190, 190);
+    padding-left: 1.5rem;
+    height: 6rem;
+  }
+
+  .webelieve {
+    width: 100vw;
+  }
+
+  .picture-dashboard {
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .picture-dashboard .columns {
+    width: 100%;
+    height: 85rem ;
+    padding: 0 ;
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
+    margin-bottom: 15rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picture-dashboard .column {
+    width: 100%;
+  }
+  
+  .left-column {
+    width: 100% ;
+    height: 30rem;
+    margin-right: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-column {
+    width: 100%;
+    height: 45rem;
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    padding-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .right-column .columns {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .faqpage-section .title {
+    margin-top: 3rem;
+  }
+  .press-header {
+    flex-direction: column;
+    align-items: left;
+    width: 100% !important;
+  }
+  .right-column .column {
+    width: 50%;
+    height: 15rem;
+    margin-right: 0;
+    padding-right: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .final-container-about-us {
+    height: 110rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .final-container-about-us p{
+    font-size: 15pt;
+    text-align: left;
+  }
+
+ .how-even-makes-money-section .columns .columns h3 {
+    text-align: left !important;
+   }
+
+  .final-container-about-us h2 {
+    font-size: 25pt;
+    text-align: left;
+  }
+
+  .final-container-about-us h1 {
+    text-align: left;
+  }
+
+  .columns-company .column {
+    width: 100%;
+    height: 20rem;
+    margin: 0;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .columns-company .column a{
+    padding-top: 2rem;
+    align-self: left;
+  }
+
+  .webelieve > h1 {
+    margin-left: 0;
+  }
+
+  .text-container {
+    align-items: left !important;
+    width: 100%;
+  }
+
+  .text-container h2{
+    font-size: 13pt;
+  }
+
+  .text-container {
+    padding: 0;
+  }
+
+  .text-container h1,
+  .text-container h2 {
+    text-align: left;
+  }
+
+  .references-container .title {
+    text-align: left;
+    width: 100%;
+    font-size: 25pt;
+  }
+
+  .references-container h2 {
+    text-align: left;
+    font-size: 15pt;
+  }
+  .references-container {
+    height: 100%;
+  }
+
+  .title, .subtitle {
+    text-align: center;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 25pt;
+  }
+  .subtitle {
+    font-size: 15pt;
+  }
+
+  .description a,
+  .description p,
+  .description > h2 {
+    padding-bottom: 2rem;
+  }
+
+
+  .hero {
+    width: 100%;
+  }
+
+  .html {
+    justify-content: center;
+  }
+
+  .columns-company > h2 {
+    font-size: 15pt;
+  }
+
+  .start-section .custom-container,
+  .left-phone {
+    flex-wrap: wrap-reverse;
+  }
+
+  .faq-section {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 100%;
+  }
+
+  .card-press {
+    flex-direction: column;
+    
+  }
+
+
+.press-image-section {
+  width: 100%;
+}
+
+.press-content-section {
+  width: 100%;
+}
+
+.press-content-section h2 {
+  text-align: left !important;
+}
+
+.press-download {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.press-buttons {
+  flex-direction: column;
+}
+
+.about-even .columns {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center !important;
+}
+
+.about-even h2 {
+  text-align: left;
+}
+.about-even .column {
+  height: 16rem;
+  width: 100%;
+}
+
+.press-images-section {
+  margin: 0 !important;
+
+}
+.press-images-section .columns {
+  align-items: center !important;
+  justify-content: center; 
+  width: 100%;
+}
+.press-images-section .column {
+  max-width: 100% !important;
+}
+
+.press-video iframe {
+  width: 100%;
+  height: 12rem;
+}
+
+.career-section {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.career-section h1{
+  font-size: 20pt;
+}
+
+.career-boards-section .columns {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.career-boards-section .column {
+  align-self: center;
+  margin-right: 0;
+  width: 100% !important;
+  margin-bottom: 3rem;
+  max-width: unset;
+  border-radius: 10px;
+}
+
+.career-section h1 {
+  width: 100% !important;
+  text-align: left;
+}
+
+.roles-left,
+.roles-right {
+  width: 100%;
+}
+
+.open-roles .column {
+  width: 100%;
+}
+
+.open-roles .column h2 {
+  text-align: left;
+}
+
+.case-of-study .videos {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-list {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.webelieve .section {
+  width: 90%;
+}
+
+.current-video { 
+  width: 100%;
+  height: 12rem;
+}
+
+.video-list .video {
+  width: 45%;
+  margin: 0.5rem;
+}
+
+.video h3 {
+  font-size: 8pt;
+  font-weight: bold;
+}
+.employers-info h1 {
+  font-size: 25pt;
+  text-align: left;
+}
+.employers-info {
+  width: 100%;
+  height: 55rem !important;
+  flex-direction: column !important;
+  padding-bottom: 2rem;
+}
+
+.employers-info .columns {
+  flex-direction: column !important;
+  height: 100%;
+}
+
+.employers-info .column {
+  height: 1rem;
+  width: 100%;
+}
+
+.left-side {
+  height: 15rem;
+}
+
+.number-left {
+  width: 50%;
+}
+
+.blue-section .bottom-section {
+  min-width: unset;
+}
+
+.info-right {
+  justify-content: center;
+  width: 50%;
+}
+
+.case-of-study-header h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: left !important;
+  width: 100%;
+}
+.info-right h2 {
+  text-align: left;
+  margin-bottom: 0 !important;
+}
+
+
+.case-of-study {
+  padding-top: 0;
+}
+
+.press-images-section .column{
+  margin: 0 !important;
+}
+
+.subtitle-top p{ 
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.card-list-container h1 {
+  text-align: center;
+}
+
+.ratings {
+  width :100%;
+}
+
+.webelieve-on-home {
+  height: 50rem !important;
+}
+.employers-info-title {
+  padding-top: 0 !important;
+  padding-bottom: 2rem !important;
+}
+.employers-info-title h1 {
+  text-align: left;
+  font-size: 25pt;
+  width: 100%;
+  margin-left: 0;
+
+}
+
+.first-container {
+  flex-direction: column !important;
+}
+
+.blue-section .employers-info .title {
+  width: 90%;
+}
+
+
+.first-container .left-side,
+.first-container .right-side {
+  width: 100%;
+}
+
+.right-side {
+  max-width: 20rem;
+}
+.left-side p {
+  width: 100%;
+}
+
+.employers-last-section {
+  height: 30rem !important;
+  justify-content: center !important;
+  margin-bottom: 0;
+}
+
+.employers-last-section h1 {
+  width: 100%;
+}
+.employers-last-section a {
+  align-self: center;
+}
+.blue-section .employers-info {
+  text-align: left;
+  justify-content: center ;
+  align-items: center;
+  padding-bottom: 2rem;
+  height: 100% !important;
+}
+
+.blue-section .employers-info h1 {
+  font-size: 25pt;
+  width: 100%;
+}
+.top-box {
+  margin-right: 0rem;
+  width: 100%;
+  height: 25rem;
+  margin-bottom: 2rem;
+  min-width: unset;
+}
+
+.bottom-box {
+  text-align: left;
+  width: 100%;
+}
+
+.bottom-box h3 {
+  text-align: left;
+}
+
+.employers-carousel {
+  height: 85rem;
+}
+
+.section {
+  width: 100%;
+  padding: 0;
+  max-width: unset;
+}
+
+.top-box .columns {
+  flex-direction: row !important;
+  height: 10rem;
+}
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+
+}
+
+.press-images-section .column {
+  margin-bottom: 1rem !important;
+}
+
+.top-box .column {
+  width: 50%;
+}
+
+/* .navbar-burger {
+  margin-left: unset;
+} */
+
+.card-list-container .button {
+  width: 100%;
+}
+
+.card-list-container a {
+  width: 100%;
+}
+
+.top-box p {
+  margin-bottom: 0 !important;
+}
+
+.top-box li{
+  font-size: 10pt;
+}
+
+.references-container {
+  padding-top: 4rem;
+  padding-bottom: 4em;
+}
+
+.employers-last-section .button {
+  width: 100% !important;
+}
+
+.employers-last-section a{ 
+  width: 100%;
+}
+
+.navbar .container {
+  width: 100vw;
+}
+
+.icons-container .title {
+  width: 100%;
+}
+.icons-container p {
+  width: 100%;
+}
+
+.icons-container .column {
+  width: 100% !important;
+}
+
+.icons-container {
+  height: 60rem;
+}
+
+.icons-container .column {
+  height: 17rem !important;
+}
+
+.reference-container
+ {
+  margin-top: 21rem;
+ }
+
+ .wwb {
+   height: 25rem;
+   margin-bottom: 5rem;
+ }
+
+ .title-section .title {
+   text-align: left;
+ }
+
+ .article-section {
+   width: 100%;
+   height: 5rem;
+ }
+
+.columns-company .column {
+  align-items: flex-start !important;
+}
+
+
+.career-board img {
+  height: 100%;
+  width: 100%;
+}
+
+
+ .webelieve {
+   height: 110rem;
+ }
+
+ .wwb .references-container {
+   align-items: left;
+ }
+
+ .final-container-about-us .title {
+   width: 100%;
+ }
+
+ .picture-dashboard .columns {
+   height: 30rem;
+ }
+
+ .picture-dashboard .left-column {
+   height: 20rem;
+ }
+
+ .press-content-section h2 {
+   font-size: 20pt !important;
+ }
+
+.press-header .title,
+.press-header a {
+  text-align: left;
+}
+
+.how-even-makes-money-section h1 {
+  text-align: left;
+}
+
+
+
+.how_even_makes_money_columns .column {
+  width: 100% !important;
+}
+
+.start-section {
+  padding-top: 5rem !important;
+}
+
+}

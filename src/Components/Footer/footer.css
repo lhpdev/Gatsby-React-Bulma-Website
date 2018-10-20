@@ -1,0 +1,71 @@
+.footer {
+  background: rgba(206, 206, 206, 0.15) ;
+  border-top: 1px solid rgba(134, 134, 134, 0.11);
+  height: 30rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footer p{
+  font-size: 10pt;
+  padding-bottom: 0.5rem;
+}
+
+.footer .column {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.appStore-button {
+  margin-top: 1.5rem;
+  background: url("https://d2pxm6w0ocgwp.cloudfront.net/d6efe14d1cbfc3b4196b3515731f4891/images/download-ios.svg");
+  background-repeat: no-repeat;
+  width: 8rem;
+  height: 3rem;
+  background-size: 100%;
+}
+
+.googlePlay-button {
+  margin-top: 1.5rem;
+  background: url("https://d2pxm6w0ocgwp.cloudfront.net/d6efe14d1cbfc3b4196b3515731f4891/images/download-android.png");
+  background-repeat: no-repeat;
+  width: 8rem;
+  height: 3rem;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .html {
+    justify-content: center ;
+  }
+
+  .body-template { 
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+      height: 70rem;
+      min-width: 375px ;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .footer .column {
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+  .footer .column p {
+    font-size: 15pt;
+    text-align: left;
+  }
+}
